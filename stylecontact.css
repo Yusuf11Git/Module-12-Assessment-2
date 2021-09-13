@@ -1,0 +1,303 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+
+#main-content {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*====================================== Home ======================================= */
+
+.body-home {
+    background-image: url(img/carspeedlines.JPG);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*================================== HOME-PAGE ======================================*/
+
+.heading-home {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgba(13, 13, 13, 0.76);
+    padding: 5px 0;
+}
+
+table {
+    width: 80%;
+    color: white;
+    font-style: italic;
+    margin: 10rem 0 2rem 10%;
+    border: 60px solid black;
+    border-radius: 100px;
+    box-shadow: 3px 5px 60px white;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+tr,td {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+#refresh {
+    position: absolute;
+    top: 7rem;
+    margin-left: 5%;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    background-color: black;
+    border: 3px solid #00FF00;
+    padding: 5px 15px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 100px;
+    transition: 0.25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+#refresh:hover {
+    background: rgba(13, 109, 239, 0.49);
+    font-size: 18px;
+}
+
+
+
+#addContact {
+    position: absolute;
+    top: 7rem;
+    margin-left: -18%;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    background-color: black;
+    border: 3px solid blue;
+    padding: 5px 15px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 100px;
+    transition: 0.25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+#addContact:hover {
+    background: rgba(13, 109, 239, 0.49);
+    font-size: 18px;
+}
+
+#book-img {
+    
+}
+
+
+	/*========== ENTER-API-KEY ========== */
+	
+	.body-api {
+	    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(img/carspeedlines.JPG);
+	    background-size: cover;
+	    background-position: center;
+	    background-attachment: fixed;
+	}
+	
+	/*========== ADD CONTACT ========== */
+	.body-addcontact{
+	    background-image: linear-gradient(rgba(2, 2, 2, 0.65), rgba(0, 0, 0, 0.76)),url(img/carspeedlines.JPG);
+	    background-size: cover;
+	    background-position: center;
+	    background-attachment: fixed;
+	}
+	
+	/*========== EDIT CONTACT ========== */
+	
+	.body-edit{
+	    background-image: linear-gradient(rgba(2, 2, 2, 0.45), rgba(28, 85, 128, 0.65)),url(img/carspeedlines.JPG);
+	    background-size: cover;
+	    background-position: center;
+	    background-attachment: fixed;
+	}
+	
+	
+	/*========================================= ENTER-API-KEY =========================================*/
+	
+	.heading-api {
+	    color: #ffffff;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    margin-top: 10rem;
+	    padding-bottom: 1.2rem;
+	
+	
+	}
+	
+	#apiKey {
+	    width: 40%;
+	    font-weight: 700;
+	}
+	
+	.plus {
+	    color: white;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    margin-top: 3rem;
+	    background-color: rgba(13, 13, 13, 0.76);
+	    padding: 5px 0;
+	
+	}
+	
+	
+	#submitApiKey {
+	    text-transform: uppercase;
+	    text-align: center;
+	    font-weight: 700;
+	    font-size: 1.2rem;
+	    margin-top: 1.3rem;
+	    border-radius: 5px 30px;
+	    padding: 5px 15px;
+	    background-color: rgb(255, 0, 10);
+	    color: white;
+	    transition: 0.25px;
+	
+	}
+	
+	#submitApiKey:hover {
+	
+	    font-size: 1.3rem;
+	    font-weight: bold;
+	    border-radius: 30px 5px;
+	    background-color: rgb(0, 255, 20);
+	}
+	
+	
+	
+	/*========================================= ADD CONTACT-PAGE =========================================*/
+	.heading-adds{
+	    color: white;
+	    text-align: center;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    margin-top: 2rem;
+	    margin-bottom: 1rem;
+	    padding: 5px 0;
+	    
+	}
+	
+	
+	#editForm{
+	    color: white;
+	    width: 70%;
+	    padding: 50px 0 20px 0;
+	    margin-left: 15%;
+	    font-weight: 500;
+	    background-color: rgba(0, 0, 0, 0.45);
+	    border-radius: 70px;
+	}
+	
+	#submitForm {
+	    text-transform: uppercase;
+	    text-align: center;
+	    font-weight: 700;
+	    border-radius: 30px 5px;
+	    padding: 5px 15px;
+	    background-color: rgb(20, 0, 255);
+	    color: white;
+	    transition: 0.25px;
+	    box-shadow: 2px 3px white;
+	}
+	
+	#submitForm:hover {
+    background: rgba(13, 109, 239, 0.49);
+    font-size: 18px;
+	}
+	
+	#homeLink {
+	    text-transform: uppercase;
+	    text-align: center;
+	    font-weight: 700;
+	    border-radius: 30px 5px;
+	    padding: 5px 15px;
+	    background-color: rgb(255, 157, 0);
+	    color: white;
+	    transition: 0.25px;
+	    box-shadow: 2px 3px white;
+	    margin-bottom: 5rem;
+	}
+	
+	#homeLink:hover {
+	    color: rgb(255, 157, 0);
+	    font-size: 1.1rem;
+	    font-weight: 700;
+	    border-radius: 5px 30px;
+	    background-color: #ffffff;
+	}
+	
+	/*========================================= EDIT CONTACT-PAGE =========================================*/
+	
+	#avatarImage {
+	    margin-bottom: 2rem;
+	    width: 100%;
+	}
+	
+	#editContact {
+        text-transform: uppercase;
+	    text-align: center;
+	    font-weight: 700;
+	    border-radius: 30px 5px;
+	    padding: 5px 15px;
+	    background-color: #1300fa;
+	    color: white;
+	    transition: 0.25px;
+	    box-shadow: 2px 3px white;
+	    margin-bottom: 5rem;
+	}
+	
+	#editContact:hover {
+    background: rgba(13, 109, 239, 0.49);
+    font-size: 18px;
+	}
+	
+	
+	#deleteContact {
+	    text-transform: uppercase;
+	    text-align: center;
+	    font-weight: 700;
+	    border-radius: 30px 5px;
+	    padding: 5px 15px;
+	    background-color: rgb(255, 34, 6);
+	    color: white;
+	    transition: 0.25px;
+	    box-shadow: 2px 3px white;
+	    margin-bottom: 5rem;
+	}
+	
+	#deleteContact:hover {
+	    color: white;
+	    font-size: 1.1rem;
+	    font-weight: 700;
+	    border-radius: 5px 30px;
+	    background-color: red;
+	}
